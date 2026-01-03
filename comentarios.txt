@@ -1,0 +1,34 @@
+Comentarios del Proyecto: Katas Python
+
+Resumen General
+
+Este proyecto ha supuesto un reto considerable para mí.
+Mi intención inicial fue resolver todos los ejercicios de manera totalmente autónoma; sin embargo, todavía me cuesta razonar la lógica computacional pura en Python, he tenido que apoyarme en herramientas de IA más de lo que me hubiese gustado.
+
+A pesar de ello, he intentado seguir una regla estricta: no copiar nada sin entenderlo primero.
+He analizado cada sugerencia, he corregido errores de planteamiento y me he asegurado de que cada función y cada estructura de control (especialmente en la parte de POO y excepciones) tenga sentido para mí.
+El resultado final es un código que comprendo y que soy capaz de aplicar.
+
+
+Problemas encontrados con las katas:
+
+(Katas 4, 13, 17, 22): Dominar map(), filter() y reduce() fue de lo más complicado. Especialmente con reduce, me llevó tiempo entender cómo el acumulador guarda el resultado sin usar un bucle for tradicional. También identificar que map() puede procesar dos listas a la vez.
+
+(Katas 29, 30) Lógica de strings : En los anagramas, me costó ver que la solución era tan simple como usar sorted(). En el enmascaramiento, el reto fue usar enumerate() y calcular el índice exacto para ocultar los caracteres correctos.
+
+(Katas 31, 37) Gestión de errores : Importancia de usar raise para lanzar excepciones reales en lugar de solo imprimir mensajes. El mayor reto fue ajustar los rangos de las horas para que no quedaran "huecos" lógicos que dieran errores inesperados.
+
+(Katas 34, 35) Programación Orientada a Objetos : Lo que más me costó fue gestionar listas como atributos de clase (clase Arbol) y entender cómo dos objetos de la misma clase pueden interactuar entre sí, como en el caso de las transferencias bancarias.
+
+(Kata 36) Argumentos variables : Implementar *args para que una función acepte distintos parámetros según la opción elegida fue confuso al principio, pero me ayudó a entender mejor cómo funcionan las tuplas.
+
+
+Metodología seguida
+
+Análisis: Leer el enunciado para identificar qué datos "entran" y qué datos deben "salir".
+
+Planteamiento: Intentar una solución inicial con bucles y condiciones básicos.
+
+Refactorización: Buscar una forma más limpia utilizando lambdas y métodos específicos.
+
+Validación: Probar con datos erróneos para asegurar que las excepciones y los rangos funcionan correctamente.
