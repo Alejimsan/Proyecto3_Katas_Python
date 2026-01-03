@@ -1,5 +1,3 @@
-# Proyecto3_Katas_Python
-
 # Proyecto 3: Katas de Python - [Alejandro Jiménez]
 
 Este repositorio contiene la resolución de 40 ejercicios (Katas) de programación en Python, desarrollados como parte del Proyecto 3. El objetivo es demostrar el dominio de los fundamentos del lenguaje, desde la manipulación de datos básicos hasta la Programación Orientada a Objetos (POO).
